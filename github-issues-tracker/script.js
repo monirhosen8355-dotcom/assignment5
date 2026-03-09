@@ -11,8 +11,6 @@ const closedBtn=document.getElementById("closedBtn")
 let allIssues=[]
 
 
-// LOAD DATA
-
 async function loadIssues(){
 
 const res=await fetch(API)
