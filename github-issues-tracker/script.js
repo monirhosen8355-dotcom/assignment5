@@ -28,9 +28,6 @@ setActive(allBtn)
 }
 
 
-
-// DISPLAY CARDS
-
 function display(issues){
 
 container.innerHTML=""
