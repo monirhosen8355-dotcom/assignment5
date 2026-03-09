@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign In - GitHub Issues Tracker</title>
+    <style>
+        body { background-color: #f6f8fa; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
+        .login-card { background: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.08); width: 400px; text-align: center; }
+        .logo { font-size: 50px; margin-bottom: 20px; }
+        h1 { font-size: 24px; margin-bottom: 5px; }
+        .subtitle { color: #586069; margin-bottom: 30px; font-size: 14px; }
+        .input-group { text-align: left; margin-bottom: 15px; }
+        label { display: block; font-weight: 600; font-size: 14px; margin-bottom: 5px; }
+        input { width: 100%; padding: 10px; border: 1px solid #d1d5da; border-radius: 6px; box-sizing: border-box; }
+        .hint { font-size: 12px; color: #4406f7; display: block; margin-top: 4px; }
+        .signin-btn { width: 100%; padding: 12px; background: #4406f7; color: #fff; border: none; border-radius: 6px; font-weight: bold; cursor: pointer; margin-top: 15px; }
+        .divider { margin: 25px 0; border-top: 1px solid #e1e4e8; position: relative; }
+        .divider span { position: absolute; top: -10px; left: 45%; background: #fff; padding: 0 10px; color: #6a737d; font-size: 12px; }
+        .demo-box { background: #f6f8fa; padding: 15px; border-radius: 6px; font-size: 14px; text-align: left; }
+    </style>
+</head>
+<body>
+    <div class="login-card">
+        <div class="logo"></div>
+        <h1>GitHub Issues Tracker</h1>
+        <p class="subtitle">Sign in to manage your issues</p>
+        <form action="index.html">
+            <div class="input-group">
+                <label>Username</label>
+                <input type="text" placeholder="Enter Username">
+                <span class="hint">Default: admin</span>
+            </div>
+            <div class="input-group">
+                <label>Password</label>
+                <input type="password" placeholder="Enter Password">
+                <span class="hint">Default: admin123</span>
+            </div>
+            <button class="signin-btn">Sign In</button>
+        </form>
+        <div class="divider"><span>OR</span></div>
+        <div class="demo-box">
+            <p>Demo Credentials:</p>
+            <strong>Username:</strong> admin <br>
+            <strong>Password:</strong> admin123
+        </div>
+    </div>
+</body>
+</html>

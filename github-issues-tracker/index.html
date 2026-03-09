@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GitHub Issues Tracker</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="navbar">
+
+<h2>GitHub Issues Tracker</h2>
+
+<input id="searchInput" placeholder="Search issues...">
+
+</div>
+
+<div class="container">
+
+
+<div class="tabs">
+
+<button id="allBtn" class="active">All</button>
+
+<button id="openBtn">Open</button>
+
+<button id="closedBtn">Closed</button>
+
+</div>
+
+
+<div class="issue-header">
+
+<div>
+
+<h3 id="issueCount">Issues</h3>
+
+<p class="subtitle">Track and manage your project issues</p>
+
+</div>
+
+
+<div class="status">
+
+<span>
+
+<span class="dot open"></span>
+
+Open
+
+</span>
+
+<span>
+
+<span class="dot closed"></span>
+
+Closed
+
+</span>
+
+</div>
+
+</div>
+
+<div id="issuesContainer" class="grid"></div>
+
+
+</div>
+
+<script src="script.js"></script>
+
+<div id="modal" class="modal">
+
+<div class="modal-content">
+
+<h3 id="modalTitle"></h3>
+
+<p id="modalDescription"></p>
+
+<p><b>Author:</b> <span id="modalAuthor"></span></p>
+
+<p><b>Priority:</b> <span id="modalPriority"></span></p>
+
+<p><b>Date:</b> <span id="modalDate"></span></p>
+
+<button onclick="closeModal()">Close</button>
+
+</div>
+
+</div>
+
+
+</body>
+</html>
