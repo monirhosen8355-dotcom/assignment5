@@ -12,7 +12,6 @@ let allIssues=[]
 
 async function loadIssues(){
 
-    
 const res=await fetch(API)
 
 const data=await res.json()
