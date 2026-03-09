@@ -10,7 +10,7 @@ const closedBtn=document.getElementById("closedBtn")
 
 let allIssues=[]
 
-// hello section ?
+
 
 async function loadIssues(){
 
